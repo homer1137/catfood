@@ -1,0 +1,53 @@
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f2f2f2;
+  font-weight: 100;
+  font-size: 2.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.background {
+
+  width: 100vw;
+  background-image: url("../public/Pattern.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  z-index: -3;
+  
+  
+}
+.shadow {
+  position: absolute;
+  width: 100vw;
+  background-image: url("../public/Shadow.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.flexWrapper2{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+.flexWrapper{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.cardImage1{
+  height: 509px;
+  width: 320px;
+  margin: 1rem;
+  cursor: pointer;
+}
